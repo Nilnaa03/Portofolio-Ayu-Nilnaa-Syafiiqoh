@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #FF69B4; 
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    z-index: 1000;
+    top: 0; 
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:focus {
+    color: red;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-text {
+    color: #fff;
+}
